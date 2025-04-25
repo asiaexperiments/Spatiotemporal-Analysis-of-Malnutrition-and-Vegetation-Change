@@ -1,0 +1,48 @@
+Field,Label,Value
+id,Dataset ID,ed6e1b4b-8094-47e6-bdf7-f6d56fa7abb9
+title,Title of Dataset,Somalia: Rainfall Indicators at Subnational Level
+name,Dataset URL,som-rainfall-subnational
+notes,Description,"This dataset contains dekadal rainfall indicators computed from Climate Hazards Group InfraRed Precipitation satellite imagery with insitu Station data (CHIRPS) version 2, aggregated by subnational administrative units.  Included indicators are (for each dekad):  10 day rainfall [mm] (rfh)   rainfall 1-month rolling aggregation [mm] (r1h) rainfall 3-month rolling aggregation [mm] (r3h) rainfall long term average [mm] (rfh_avg) rainfall 1-month rolling aggregation long term average [mm] (r1h_avg) rainfall 3-month rolling aggregation long term average [mm] (r3h_avg) rainfall anomaly [%] (rfq) rainfall 1-month anomaly [%] (r1q) rainfall 3-month anomaly [%] (r3q)  The administrative units used for aggregation are based on WFP data and contain a Pcode reference attributed to each unit. The number of input pixels used to create the aggregates, is provided in the n_pixelscolumn."
+dataset_source,Source,Climate Hazards Center UC Santa Barbara & WFP
+organization,Contributor,WFP - World Food Programme
+dataset_date,Reference Period,[1981-01-01T00:00:00 TO 2025-04-20T23:59:59]
+last_modified,Updated,2025-04-25T11:06:10.313364
+data_update_frequency,Expected Update Frequency,Every two weeks
+groups,Location,Somalia
+license_title,License,Creative Commons Attribution International (CC BY)
+methodology,Methodology,Other
+methodology_other,Define Methodology,"Rainfall estimates are derived from satellite observations and combined with rain gauge data. For more information, please visit the [CHIRPS product page](https://chc.ucsb.edu/data/chirps). 
+
+The rainfall estimates (in mm) are averaged by subnational administrative units defined by WFP datasets, and the subsequent indicators (aggregations, averages and anomalies) are calculated directly from the averaged data.
+
+The anomalies (in %) are calculated in reference to the long term average of the timeseries, which is calculated over the reference period 1989-01-01 to 2018-12-31.
+
+To provide valid dates, the dekads are mapped to their start date. Therefore, the 1st dekad corresponds to the 1st of each month, the 2nd dekad to the 11th and the 3rd dekad to the 21st."
+caveats,Caveats/Comments,"To provide real-time data, the prelim version is used which then gets replaced successively by final data as it becomes available. For more information about differences between prelim and final see [CHIRPS Reality Checks](https://wiki.chc.ucsb.edu/CHIRPS_Reality_Checks)"
+tags,Tags,"climate-weather, environment, hxl"
+resource_1_created,Created,2023-05-02T14:30:58.563507
+resource_1_description,Description,This resource contains the full timeseries to date. File id: 20250425T11055805S_16b554c1
+resource_1_format,File Format,CSV
+resource_1_download_url,Download URL,https://data.humdata.org/dataset/ed6e1b4b-8094-47e6-bdf7-f6d56fa7abb9/resource/331ab214-0860-44ea-a53b-0a3fac601e82/download/som-rainfall-adm2-full.csv
+resource_1_id,Resource ID,331ab214-0860-44ea-a53b-0a3fac601e82
+resource_1_last_modified,Updated,2025-04-25T11:06:10.041262
+resource_1_metadata_modified,Metadata Updated,2025-04-25T11:06:53.404907
+resource_1_microdata,Microdata,False
+resource_1_dataset_id,Dataset ID,ed6e1b4b-8094-47e6-bdf7-f6d56fa7abb9
+resource_1_resource_type,Resource Type,file.upload
+resource_1_name,Resource Name,som-rainfall-adm2-full.csv
+resource_1_mimetype,MIME Type,
+resource_1_size,Size,11.8M
+resource_2_created,Created,2023-05-02T14:30:58.563512
+resource_2_description,Description,This resource contains a subset of the full timeseries covering the past five years to date. File id: 20250425T11055805S_16b554c1
+resource_2_format,File Format,CSV
+resource_2_download_url,Download URL,https://data.humdata.org/dataset/ed6e1b4b-8094-47e6-bdf7-f6d56fa7abb9/resource/59f6631b-7ee8-4105-ba5c-b4d3d4c138a4/download/som-rainfall-adm2-5ytd.csv
+resource_2_id,Resource ID,59f6631b-7ee8-4105-ba5c-b4d3d4c138a4
+resource_2_last_modified,Updated,2025-04-25T11:06:10.313364
+resource_2_metadata_modified,Metadata Updated,2025-04-25T11:06:54.903972
+resource_2_microdata,Microdata,False
+resource_2_dataset_id,Dataset ID,ed6e1b4b-8094-47e6-bdf7-f6d56fa7abb9
+resource_2_resource_type,Resource Type,file.upload
+resource_2_name,Resource Name,som-rainfall-adm2-5ytd.csv
+resource_2_mimetype,MIME Type,
+resource_2_size,Size,1.2M
